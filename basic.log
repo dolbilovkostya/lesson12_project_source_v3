@@ -1,0 +1,210 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:36:55] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:36:55] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:36:56] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:36:56] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:37:00] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:37:00] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:37:02] "[35m[1mGET /search/?s=згдз HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:37:07] "[35m[1mGET /search/?s=згдз HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+NameError: name 'logging' is not defined
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:37:25] "[35m[1mGET /search/?s=hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:39:25] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:39:25] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+AttributeError: module 'flask.logging' has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:39:28] "[35m[1mGET /search/?s=hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:42:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:42:54] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+AttributeError: module 'flask.logging' has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:42:57] "[35m[1mGET /search/?s=hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:47:21] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:47:21] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+AttributeError: module 'flask.logging' has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:47:24] "[35m[1mGET /search/?s=hello HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:22] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:26] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:26] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:27] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:27] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:31] "GET /post HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:31] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:32] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:34] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:40] "[32mGET /search HTTP/1.1[0m" 308 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+AttributeError: module 'flask.logging' has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:40] "[35m[1mGET /search/ HTTP/1.1[0m" 500 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging.info('Выполняю поиск')
+AttributeError: module 'flask.logging' has no attribute 'info'
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:49:46] "[35m[1mGET /search/?s=asf HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:51:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:51:17] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+ERROR:app:Exception on /search/ [GET]
+Traceback (most recent call last):
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/venv/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/Users/konstantindolbilov/PycharmProjects/lesson12_project_source_v3/main/views.py", line 18, in search_page
+    logging('Выполняю поиск')
+TypeError: 'module' object is not callable
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:51:20] "[35m[1mGET /search/?s=ып HTTP/1.1[0m" 500 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:08] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:08] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:09] "GET /search/?s=ыфвп HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:09] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:11] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:13] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:17] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:40] "[33mGET /static HTTP/1.1[0m" 404 -
+INFO:root:Выполняю поиск
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:42] "GET /search/?s=ыфвп HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:42] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Nov/2022 00:52:43] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
